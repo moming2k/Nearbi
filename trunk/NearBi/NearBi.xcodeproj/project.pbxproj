@@ -144,7 +144,6 @@
 			isa = PBXProject;
 			buildConfigurationList = 4B4DA70B11FA0EBA00037EAF /* Build configuration list for PBXProject "NearBi" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
