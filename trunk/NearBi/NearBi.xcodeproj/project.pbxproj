@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4DA71911FA0EBB00037EAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4DA71811FA0EBB00037EAF /* UIKit.framework */; };
+		4B4DA71B11FA0EBB00037EAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4DA71A11FA0EBB00037EAF /* Foundation.framework */; };
+		4B4DA71D11FA0EBB00037EAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4DA71C11FA0EBB00037EAF /* CoreGraphics.framework */; };
+		4B4DA72211FA0EBB00037EAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DA72011FA0EBB00037EAF /* InfoPlist.strings */; };
+		4B4DA72411FA0EBB00037EAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DA72311FA0EBB00037EAF /* main.m */; };
+		4B4DA72711FA0EBB00037EAF /* NearBiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DA72611FA0EBB00037EAF /* NearBiAppDelegate.m */; };
+		4B4DA72A11FA0EBB00037EAF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DA72811FA0EBB00037EAF /* MainWindow.xib */; };
+		4B4DA72D11FA0EBB00037EAF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DA72C11FA0EBB00037EAF /* FirstViewController.m */; };
+		4B4DA73011FA0EBB00037EAF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DA72F11FA0EBB00037EAF /* SecondViewController.m */; };
+		4B4DA73311FA0EBB00037EAF /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DA73111FA0EBB00037EAF /* FirstView.xib */; };
+		4B4DA73611FA0EBB00037EAF /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DA73411FA0EBB00037EAF /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B4DA71511FA0EBB00037EAF /* NearBi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearBi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4DA71811FA0EBB00037EAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B4DA71A11FA0EBB00037EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B4DA71C11FA0EBB00037EAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B4DA71E11FA0EBB00037EAF /* NearBi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NearBi-Info.plist"; sourceTree = "<group>"; };
+		4B4DA71F11FA0EBB00037EAF /* NearBi_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NearBi_Prefix.pch; sourceTree = "<group>"; };
+		4B4DA72111FA0EBB00037EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B4DA72311FA0EBB00037EAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B4DA72511FA0EBB00037EAF /* NearBiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NearBiAppDelegate.h; sourceTree = "<group>"; };
+		4B4DA72611FA0EBB00037EAF /* NearBiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearBiAppDelegate.m; sourceTree = "<group>"; };
+		4B4DA72911FA0EBB00037EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4B4DA72B11FA0EBB00037EAF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4B4DA72C11FA0EBB00037EAF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4B4DA72E11FA0EBB00037EAF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4B4DA72F11FA0EBB00037EAF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4B4DA73211FA0EBB00037EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		4B4DA73511FA0EBB00037EAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4DA71211FA0EBB00037EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4DA71911FA0EBB00037EAF /* UIKit.framework in Frameworks */,
+				4B4DA71B11FA0EBB00037EAF /* Foundation.framework in Frameworks */,
+				4B4DA71D11FA0EBB00037EAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4DA70611FA0EBA00037EAF = {
+			isa = PBXGroup;
+			children = (
+				4B4DA70D11FA0EBB00037EAF /* Classes */,
+				4B4DA70E11FA0EBB00037EAF /* Other Sources */,
+				4B4DA70F11FA0EBB00037EAF /* Resources */,
+				4B4DA71011FA0EBB00037EAF /* Frameworks */,
+				4B4DA71611FA0EBB00037EAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B4DA70D11FA0EBB00037EAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DA72511FA0EBB00037EAF /* NearBiAppDelegate.h */,
+				4B4DA72611FA0EBB00037EAF /* NearBiAppDelegate.m */,
+				4B4DA72B11FA0EBB00037EAF /* FirstViewController.h */,
+				4B4DA72C11FA0EBB00037EAF /* FirstViewController.m */,
+				4B4DA72E11FA0EBB00037EAF /* SecondViewController.h */,
+				4B4DA72F11FA0EBB00037EAF /* SecondViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4B4DA70E11FA0EBB00037EAF /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DA71F11FA0EBB00037EAF /* NearBi_Prefix.pch */,
+				4B4DA72311FA0EBB00037EAF /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4B4DA70F11FA0EBB00037EAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DA71E11FA0EBB00037EAF /* NearBi-Info.plist */,
+				4B4DA72011FA0EBB00037EAF /* InfoPlist.strings */,
+				4B4DA72811FA0EBB00037EAF /* MainWindow.xib */,
+				4B4DA73111FA0EBB00037EAF /* FirstView.xib */,
+				4B4DA73411FA0EBB00037EAF /* SecondView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4B4DA71011FA0EBB00037EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DA71811FA0EBB00037EAF /* UIKit.framework */,
+				4B4DA71A11FA0EBB00037EAF /* Foundation.framework */,
+				4B4DA71C11FA0EBB00037EAF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B4DA71611FA0EBB00037EAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4DA71511FA0EBB00037EAF /* NearBi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B4DA71411FA0EBB00037EAF /* NearBi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4DA73911FA0EBB00037EAF /* Build configuration list for PBXNativeTarget "NearBi" */;
+			buildPhases = (
+				4B4DA71111FA0EBB00037EAF /* Sources */,
+				4B4DA71211FA0EBB00037EAF /* Frameworks */,
+				4B4DA71311FA0EBB00037EAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearBi;
+			productName = NearBi;
+			productReference = 4B4DA71511FA0EBB00037EAF /* NearBi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B4DA70811FA0EBA00037EAF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4B4DA70B11FA0EBA00037EAF /* Build configuration list for PBXProject "NearBi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B4DA70611FA0EBA00037EAF;
+			productRefGroup = 4B4DA71611FA0EBB00037EAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B4DA71411FA0EBB00037EAF /* NearBi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B4DA71311FA0EBB00037EAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4DA72211FA0EBB00037EAF /* InfoPlist.strings in Resources */,
+				4B4DA72A11FA0EBB00037EAF /* MainWindow.xib in Resources */,
+				4B4DA73311FA0EBB00037EAF /* FirstView.xib in Resources */,
+				4B4DA73611FA0EBB00037EAF /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B4DA71111FA0EBB00037EAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4DA72411FA0EBB00037EAF /* main.m in Sources */,
+				4B4DA72711FA0EBB00037EAF /* NearBiAppDelegate.m in Sources */,
+				4B4DA72D11FA0EBB00037EAF /* FirstViewController.m in Sources */,
+				4B4DA73011FA0EBB00037EAF /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B4DA72011FA0EBB00037EAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4DA72111FA0EBB00037EAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B4DA72811FA0EBB00037EAF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4DA72911FA0EBB00037EAF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4B4DA73111FA0EBB00037EAF /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4DA73211FA0EBB00037EAF /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		4B4DA73411FA0EBB00037EAF /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B4DA73511FA0EBB00037EAF /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B4DA73711FA0EBB00037EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		4B4DA73811FA0EBB00037EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		4B4DA73A11FA0EBB00037EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NearBi_Prefix.pch;
+				INFOPLIST_FILE = "NearBi-Info.plist";
+				PRODUCT_NAME = NearBi;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B4DA73B11FA0EBB00037EAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NearBi_Prefix.pch;
+				INFOPLIST_FILE = "NearBi-Info.plist";
+				PRODUCT_NAME = NearBi;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B4DA70B11FA0EBA00037EAF /* Build configuration list for PBXProject "NearBi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4DA73711FA0EBB00037EAF /* Debug */,
+				4B4DA73811FA0EBB00037EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4DA73911FA0EBB00037EAF /* Build configuration list for PBXNativeTarget "NearBi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4DA73A11FA0EBB00037EAF /* Debug */,
+				4B4DA73B11FA0EBB00037EAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B4DA70811FA0EBA00037EAF /* Project object */;
+}
